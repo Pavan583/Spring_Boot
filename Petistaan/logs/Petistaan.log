@@ -1,0 +1,145 @@
+2025-01-28T16:31:22.358+05:30  INFO 19292 --- [Petistaan] [restartedMain] com.pavan.App                            : Starting App using Java 22.0.2 with PID 19292 (C:\Users\garla\Desktop\Petistaan\target\classes started by garla in C:\Users\garla\Desktop\Petistaan)
+2025-01-28T16:31:22.557+05:30  INFO 19292 --- [Petistaan] [restartedMain] com.pavan.App                            : No active profile set, falling back to 1 default profile: "default"
+2025-01-28T16:31:22.629+05:30  INFO 19292 --- [Petistaan] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-28T16:31:23.450+05:30  INFO 19292 --- [Petistaan] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-28T16:31:23.479+05:30  INFO 19292 --- [Petistaan] [restartedMain] com.pavan.App                            : Started App in 1.761 seconds (process running for 2.47)
+2025-01-28T16:33:16.613+05:30  INFO 17600 --- [Petistaan] [restartedMain] com.pavan.App                            : Starting App using Java 22.0.2 with PID 17600 (C:\Users\garla\Desktop\Petistaan\target\classes started by garla in C:\Users\garla\Desktop\Petistaan)
+2025-01-28T16:33:16.681+05:30  INFO 17600 --- [Petistaan] [restartedMain] com.pavan.App                            : No active profile set, falling back to 1 default profile: "default"
+2025-01-28T16:33:16.740+05:30  INFO 17600 --- [Petistaan] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-28T16:33:17.414+05:30  INFO 17600 --- [Petistaan] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-28T16:33:17.441+05:30  INFO 17600 --- [Petistaan] [restartedMain] com.pavan.App                            : Started App in 1.325 seconds (process running for 1.832)
+2025-01-28T16:33:26.589+05:30 ERROR 17600 --- [Petistaan] [restartedMain] com.pavan.App                            : Owner not found with ownerId 3
+
+com.pavan.exception.OwnerNotFoundException: Owner not found with ownerId 3
+	at com.pavan.service.impl.OwnerServiceImpl.lambda$findOwner$0(OwnerServiceImpl.java:37) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.pavan.service.impl.OwnerServiceImpl.findOwner(OwnerServiceImpl.java:37) ~[classes/:na]
+	at com.pavan.App.run(App.java:51) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772) ~[spring-boot-3.4.1.jar:3.4.1]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:557) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:611) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
+	at com.pavan.App.main(App.java:32) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.1.jar:3.4.1]
+
+2025-01-28T16:37:31.391+05:30  INFO 24688 --- [Petistaan] [restartedMain] com.pavan.App                            : Starting App using Java 22.0.2 with PID 24688 (C:\Users\garla\Desktop\Petistaan\target\classes started by garla in C:\Users\garla\Desktop\Petistaan)
+2025-01-28T16:37:31.480+05:30  INFO 24688 --- [Petistaan] [restartedMain] com.pavan.App                            : No active profile set, falling back to 1 default profile: "default"
+2025-01-28T16:37:31.550+05:30  INFO 24688 --- [Petistaan] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-28T16:37:32.312+05:30  INFO 24688 --- [Petistaan] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-28T16:37:32.352+05:30  INFO 24688 --- [Petistaan] [restartedMain] com.pavan.App                            : Started App in 1.501 seconds (process running for 1.957)
+2025-01-28T16:40:23.777+05:30  INFO 2684 --- [Petistaan] [restartedMain] com.pavan.App                            : Starting App using Java 22.0.2 with PID 2684 (C:\Users\garla\Desktop\Petistaan\target\classes started by garla in C:\Users\garla\Desktop\Petistaan)
+2025-01-28T16:40:23.840+05:30  INFO 2684 --- [Petistaan] [restartedMain] com.pavan.App                            : No active profile set, falling back to 1 default profile: "default"
+2025-01-28T16:40:23.896+05:30  INFO 2684 --- [Petistaan] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-28T16:40:24.606+05:30  INFO 2684 --- [Petistaan] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-28T16:40:24.632+05:30  INFO 2684 --- [Petistaan] [restartedMain] com.pavan.App                            : Started App in 1.47 seconds (process running for 2.194)
+2025-01-28T16:40:39.395+05:30 ERROR 2684 --- [Petistaan] [restartedMain] com.pavan.App                            : Owner not found with ownerId 3
+
+com.pavan.exception.OwnerNotFoundException: Owner not found with ownerId 3
+	at com.pavan.service.impl.OwnerServiceImpl.lambda$findOwner$0(OwnerServiceImpl.java:37) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.pavan.service.impl.OwnerServiceImpl.findOwner(OwnerServiceImpl.java:37) ~[classes/:na]
+	at com.pavan.App.run(App.java:51) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772) ~[spring-boot-3.4.1.jar:3.4.1]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:557) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:611) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
+	at com.pavan.App.main(App.java:32) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.1.jar:3.4.1]
+
+2025-01-28T16:44:35.296+05:30  INFO 23424 --- [Petistaan] [restartedMain] com.pavan.App                            : Starting App using Java 22.0.2 with PID 23424 (C:\Users\garla\Desktop\Petistaan\target\classes started by garla in C:\Users\garla\Desktop\Petistaan)
+2025-01-28T16:44:35.391+05:30  INFO 23424 --- [Petistaan] [restartedMain] com.pavan.App                            : No active profile set, falling back to 1 default profile: "default"
+2025-01-28T16:44:35.475+05:30  INFO 23424 --- [Petistaan] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-28T16:44:36.698+05:30  INFO 23424 --- [Petistaan] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-28T16:44:36.763+05:30  INFO 23424 --- [Petistaan] [restartedMain] com.pavan.App                            : Started App in 2.197 seconds (process running for 2.809)
+2025-01-28T16:44:43.995+05:30  INFO 23424 --- [Petistaan] [restartedMain] com.pavan.aspect.LogAspect               : Entered OwnerDTO com.pavan.service.impl.OwnerServiceImpl.findOwner(int) with arguments as [3]
+2025-01-28T16:44:44.000+05:30 ERROR 23424 --- [Petistaan] [restartedMain] com.pavan.aspect.LogAspect               : Completed OwnerDTO com.pavan.service.impl.OwnerServiceImpl.findOwner(int) with exception as Owner not found with ownerId 3
+2025-01-28T16:44:44.001+05:30 ERROR 23424 --- [Petistaan] [restartedMain] com.pavan.App                            : Owner not found with ownerId 3
+
+com.pavan.exception.OwnerNotFoundException: Owner not found with ownerId 3
+	at com.pavan.service.impl.OwnerServiceImpl.lambda$findOwner$0(OwnerServiceImpl.java:37) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.pavan.service.impl.OwnerServiceImpl.findOwner(OwnerServiceImpl.java:37) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.1.jar:6.2.1]
+	at com.pavan.service.impl.OwnerServiceImpl$$SpringCGLIB$$0.findOwner(<generated>) ~[classes/:na]
+	at com.pavan.App.run(App.java:51) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772) ~[spring-boot-3.4.1.jar:3.4.1]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:557) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:611) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
+	at com.pavan.App.main(App.java:32) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.1.jar:3.4.1]
+
+2025-01-28T16:45:59.437+05:30  INFO 11664 --- [Petistaan] [restartedMain] com.pavan.App                            : Starting App using Java 22.0.2 with PID 11664 (C:\Users\garla\Desktop\Petistaan\target\classes started by garla in C:\Users\garla\Desktop\Petistaan)
+2025-01-28T16:45:59.517+05:30  INFO 11664 --- [Petistaan] [restartedMain] com.pavan.App                            : No active profile set, falling back to 1 default profile: "default"
+2025-01-28T16:45:59.602+05:30  INFO 11664 --- [Petistaan] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-28T16:46:00.967+05:30  INFO 11664 --- [Petistaan] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-28T16:46:01.020+05:30  INFO 11664 --- [Petistaan] [restartedMain] com.pavan.App                            : Started App in 2.238 seconds (process running for 2.892)
+2025-01-28T16:46:04.969+05:30  INFO 11664 --- [Petistaan] [restartedMain] com.pavan.aspect.LogAspect               : Entered OwnerDTO com.pavan.service.impl.OwnerServiceImpl.findOwner(int) with arguments as [1]
+2025-01-28T16:46:04.974+05:30  INFO 11664 --- [Petistaan] [restartedMain] com.pavan.aspect.LogAspect               : Completed OwnerDTO com.pavan.service.impl.OwnerServiceImpl.findOwner(int) with result as OwnerDTO [id=1, firstName=John, lastName=Doe, gender=M, city=Hyderabad, state=Andhra Pradesh, mobileNumber=9009009001, emailId=john.doe@abhishekvermaa10.com, petDTO=WildPetDTO [id=1, name=Max, gender=M, type=DOG, birthDate=2018-07-26]]
+2025-01-28T16:51:50.721+05:30  INFO 26384 --- [Petistaan] [main] com.pavan.PetistaanApplicationTests      : Starting PetistaanApplicationTests using Java 22.0.2 with PID 26384 (started by garla in C:\Users\garla\Desktop\Petistaan)
+2025-01-28T16:51:50.790+05:30  INFO 26384 --- [Petistaan] [main] com.pavan.PetistaanApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-01-28T16:51:51.828+05:30  INFO 26384 --- [Petistaan] [main] com.pavan.PetistaanApplicationTests      : Started PetistaanApplicationTests in 1.585 seconds (process running for 2.974)

@@ -1,0 +1,9 @@
+2025-01-21T12:46:03.243+05:30  INFO 32872 --- [App] [main] com.scaleupindia.App                     : Starting App using Java 22.0.2 with PID 32872 (C:\Users\garla\Desktop\Spring-SpringBoot\demo13\target\classes started by garla in C:\Users\garla\Desktop\Spring-SpringBoot\demo13)
+2025-01-21T12:46:03.246+05:30  INFO 32872 --- [App] [main] com.scaleupindia.App                     : The following 1 profile is active: "local"
+2025-01-21T12:46:03.937+05:30  INFO 32872 --- [App] [main] com.scaleupindia.App                     : Started App in 1.332 seconds (process running for 1.722)
+2025-01-21T12:46:03.943+05:30  INFO 32872 --- [App] [main] com.scaleupindia.App                     : Found owner with ownerId 20
+2025-01-21T12:46:06.093+05:30  INFO 32872 --- [App] [main] com.scaleupindia.App                     : Found owner with ownerId 10
+2025-01-21T12:58:47.727+05:30  INFO 28332 --- [App] [main] com.scaleupindia.App                     : Starting App using Java 22.0.2 with PID 28332 (C:\Users\garla\Desktop\Spring-SpringBoot\demo13\target\classes started by garla in C:\Users\garla\Desktop\Spring-SpringBoot\demo13)
+2025-01-21T12:58:47.731+05:30  INFO 28332 --- [App] [main] com.scaleupindia.App                     : The following 1 profile is active: "local"
+2025-01-21T12:58:48.642+05:30  INFO 28332 --- [App] [main] com.scaleupindia.App                     : Started App in 1.733 seconds (process running for 2.264)
+2025-01-21T12:58:48.648+05:30  INFO 28332 --- [App] [main] com.scaleupindia.App                     : Found owner with ownerId 20

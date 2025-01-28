@@ -1,0 +1,31 @@
+2025-01-20T17:16:51.079+05:30  INFO 26260 --- [App] [main] com.scaleupindia.App                     : Starting App using Java 22.0.2 with PID 26260 (C:\Users\garla\Desktop\Spring-SpringBoot\demo11\target\classes started by garla in C:\Users\garla\Desktop\Spring-SpringBoot\demo11)
+2025-01-20T17:16:51.082+05:30  INFO 26260 --- [App] [main] com.scaleupindia.App                     : The following 1 profile is active: "prod"
+2025-01-20T17:16:51.893+05:30  INFO 26260 --- [App] [main] com.scaleupindia.App                     : Started App in 1.533 seconds (process running for 1.988)
+2025-01-20T17:16:51.901+05:30  INFO 26260 --- [App] [main] com.scaleupindia.App                     : Found owner with ownerId 20 
+2025-01-20T17:16:54.971+05:30  INFO 26260 --- [App] [main] com.scaleupindia.App                     : Can't find owner with ownerId 13 
+
+com.scaleupindia.exception.OwnerNotFoundException: Can't find owner with ownerId 13 
+	at com.scaleupindia.repository.impl.OwnerRepositoryImpl.findOwner(OwnerRepositoryImpl.java:25) ~[classes/:na]
+	at com.scaleupindia.service.impl.OwnerServiceImpl.findOwner(OwnerServiceImpl.java:24) ~[classes/:na]
+	at com.scaleupindia.App.run(App.java:37) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772) ~[spring-boot-3.4.1.jar:3.4.1]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:557) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:611) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
+	at com.scaleupindia.App.main(App.java:27) ~[classes/:na]
+

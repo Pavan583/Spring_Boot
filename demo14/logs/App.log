@@ -1,0 +1,235 @@
+2025-01-22T12:34:30.135+05:30  INFO 30388 --- [App] [main] com.scaleupindia.App                     : Starting App using Java 22.0.2 with PID 30388 (C:\Users\garla\Desktop\Spring-SpringBoot\demo14\target\classes started by garla in C:\Users\garla\Desktop\Spring-SpringBoot\demo14)
+2025-01-22T12:34:30.137+05:30  INFO 30388 --- [App] [main] com.scaleupindia.App                     : No active profile set, falling back to 1 default profile: "default"
+2025-01-22T12:34:30.995+05:30  INFO 30388 --- [App] [main] com.scaleupindia.App                     : Started App in 1.575 seconds (process running for 2.24)
+2025-01-22T12:34:31.004+05:30  INFO 30388 --- [App] [main] com.scaleupindia.App                     : Found owner with ownerId 20 
+2025-01-22T12:36:25.832+05:30  INFO 25524 --- [App] [main] com.scaleupindia.App                     : Starting App using Java 22.0.2 with PID 25524 (C:\Users\garla\Desktop\Spring-SpringBoot\demo14\target\classes started by garla in C:\Users\garla\Desktop\Spring-SpringBoot\demo14)
+2025-01-22T12:36:25.836+05:30  INFO 25524 --- [App] [main] com.scaleupindia.App                     : No active profile set, falling back to 1 default profile: "default"
+2025-01-22T12:36:26.825+05:30  INFO 25524 --- [App] [main] com.scaleupindia.App                     : Started App in 1.753 seconds (process running for 2.607)
+2025-01-22T12:36:26.831+05:30  INFO 25524 --- [App] [main] com.scaleupindia.App                     : Found owner with ownerId 20 
+2025-01-22T12:41:52.270+05:30  INFO 33288 --- [App] [main] com.scaleupindia.App                     : Starting App using Java 22.0.2 with PID 33288 (C:\Users\garla\Desktop\Spring-SpringBoot\demo14\target\classes started by garla in C:\Users\garla\Desktop\Spring-SpringBoot\demo14)
+2025-01-22T12:41:52.273+05:30  INFO 33288 --- [App] [main] com.scaleupindia.App                     : No active profile set, falling back to 1 default profile: "default"
+2025-01-22T12:41:53.218+05:30  INFO 33288 --- [App] [main] com.scaleupindia.App                     : Started App in 1.777 seconds (process running for 2.341)
+2025-01-22T12:41:53.227+05:30  INFO 33288 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Around String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with arguments as []
+2025-01-22T12:41:53.228+05:30  INFO 33288 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Before invoking proceed()
+2025-01-22T12:41:53.229+05:30  INFO 33288 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Entered String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with arguments as []
+2025-01-22T12:41:53.230+05:30  INFO 33288 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Completed String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with result as Found owner with ownerId 20 
+2025-01-22T12:41:53.230+05:30  INFO 33288 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Completed String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner()
+2025-01-22T12:41:53.230+05:30  INFO 33288 --- [App] [main] com.scaleupindia.aspect.LogAspect        : After invoking proceed()
+2025-01-22T12:41:53.230+05:30  INFO 33288 --- [App] [main] com.scaleupindia.App                     : Found owner with ownerId 20 
+2025-01-22T12:44:21.585+05:30  INFO 27708 --- [App] [main] com.scaleupindia.App                     : Starting App using Java 22.0.2 with PID 27708 (C:\Users\garla\Desktop\Spring-SpringBoot\demo14\target\classes started by garla in C:\Users\garla\Desktop\Spring-SpringBoot\demo14)
+2025-01-22T12:44:21.588+05:30  INFO 27708 --- [App] [main] com.scaleupindia.App                     : No active profile set, falling back to 1 default profile: "default"
+2025-01-22T12:44:22.431+05:30  INFO 27708 --- [App] [main] com.scaleupindia.App                     : Started App in 1.497 seconds (process running for 1.955)
+2025-01-22T12:44:22.440+05:30  INFO 27708 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Entered String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with arguments as []
+2025-01-22T12:44:22.444+05:30  INFO 27708 --- [App] [main] com.scaleupindia.App                     : Found owner with ownerId 20 
+2025-01-22T12:44:48.710+05:30  INFO 27708 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Entered String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with arguments as []
+2025-01-22T12:44:48.712+05:30  INFO 27708 --- [App] [main] com.scaleupindia.App                     : Found owner with ownerId 12 
+2025-01-22T13:07:21.687+05:30  INFO 32932 --- [App] [main] com.scaleupindia.App                     : Starting App using Java 22.0.2 with PID 32932 (C:\Users\garla\Desktop\Spring-SpringBoot\demo14\target\classes started by garla in C:\Users\garla\Desktop\Spring-SpringBoot\demo14)
+2025-01-22T13:07:21.690+05:30  INFO 32932 --- [App] [main] com.scaleupindia.App                     : No active profile set, falling back to 1 default profile: "default"
+2025-01-22T13:07:22.649+05:30  INFO 32932 --- [App] [main] com.scaleupindia.App                     : Started App in 1.674 seconds (process running for 2.164)
+2025-01-22T13:07:22.655+05:30  INFO 32932 --- [App] [main] com.scaleupindia.App                     : Found owner with ownerId 20 
+2025-01-22T13:10:56.671+05:30  INFO 30884 --- [App] [main] com.scaleupindia.App                     : Starting App using Java 22.0.2 with PID 30884 (C:\Users\garla\Desktop\Spring-SpringBoot\demo14\target\classes started by garla in C:\Users\garla\Desktop\Spring-SpringBoot\demo14)
+2025-01-22T13:10:56.674+05:30  INFO 30884 --- [App] [main] com.scaleupindia.App                     : No active profile set, falling back to 1 default profile: "default"
+2025-01-22T13:10:57.549+05:30  INFO 30884 --- [App] [main] com.scaleupindia.App                     : Started App in 1.507 seconds (process running for 1.923)
+2025-01-22T13:10:57.555+05:30  INFO 30884 --- [App] [main] com.scaleupindia.App                     : Found owner with ownerId 20 
+2025-01-22T13:12:55.527+05:30  INFO 31076 --- [App] [main] com.scaleupindia.App                     : Starting App using Java 22.0.2 with PID 31076 (C:\Users\garla\Desktop\Spring-SpringBoot\demo14\target\classes started by garla in C:\Users\garla\Desktop\Spring-SpringBoot\demo14)
+2025-01-22T13:12:55.530+05:30  INFO 31076 --- [App] [main] com.scaleupindia.App                     : No active profile set, falling back to 1 default profile: "default"
+2025-01-22T13:12:56.324+05:30  INFO 31076 --- [App] [main] com.scaleupindia.App                     : Started App in 1.409 seconds (process running for 1.812)
+2025-01-22T13:12:56.332+05:30  INFO 31076 --- [App] [main] com.scaleupindia.App                     : Found owner with ownerId 20 
+2025-01-22T13:43:53.416+05:30  INFO 27776 --- [App] [main] com.scaleupindia.App                     : Starting App using Java 22.0.2 with PID 27776 (C:\Users\garla\Desktop\Spring-SpringBoot\demo14\target\classes started by garla in C:\Users\garla\Desktop\Spring-SpringBoot\demo14)
+2025-01-22T13:43:53.420+05:30  INFO 27776 --- [App] [main] com.scaleupindia.App                     : No active profile set, falling back to 1 default profile: "default"
+2025-01-22T13:43:54.400+05:30  INFO 27776 --- [App] [main] com.scaleupindia.App                     : Started App in 1.728 seconds (process running for 2.237)
+2025-01-22T13:43:54.410+05:30  INFO 27776 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Entered String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with arguments as []
+2025-01-22T13:43:54.412+05:30  INFO 27776 --- [App] [main] com.scaleupindia.App                     : Found owner with ownerId 20 
+2025-01-22T13:44:07.536+05:30  INFO 27776 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Entered String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with arguments as []
+2025-01-22T13:44:07.537+05:30  INFO 27776 --- [App] [main] com.scaleupindia.App                     : Found owner with ownerId 12 
+2025-01-22T13:51:20.075+05:30  INFO 19536 --- [App] [main] com.scaleupindia.App                     : Starting App using Java 22.0.2 with PID 19536 (C:\Users\garla\Desktop\Spring-SpringBoot\demo14\target\classes started by garla in C:\Users\garla\Desktop\Spring-SpringBoot\demo14)
+2025-01-22T13:51:20.078+05:30  INFO 19536 --- [App] [main] com.scaleupindia.App                     : No active profile set, falling back to 1 default profile: "default"
+2025-01-22T13:51:21.011+05:30  INFO 19536 --- [App] [main] com.scaleupindia.App                     : Started App in 1.654 seconds (process running for 2.222)
+2025-01-22T13:51:21.029+05:30  INFO 19536 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Entered String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with arguments as []
+2025-01-22T13:51:21.031+05:30  INFO 19536 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Completed String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner()
+2025-01-22T13:51:21.032+05:30  INFO 19536 --- [App] [main] com.scaleupindia.App                     : Found owner with ownerId 20 
+2025-01-22T13:51:37.875+05:30  INFO 19536 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Entered String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with arguments as []
+2025-01-22T13:51:37.879+05:30  INFO 19536 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Completed String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner()
+2025-01-22T13:51:37.880+05:30  INFO 19536 --- [App] [main] com.scaleupindia.App                     : Can't find owner with ownerId 13 
+
+com.scaleupindia.exception.OwnerNotFoundException: Can't find owner with ownerId 13 
+	at com.scaleupindia.repository.impl.OwnerRepositoryImpl.findOwner(OwnerRepositoryImpl.java:25) ~[classes/:na]
+	at com.scaleupindia.service.impl.OwnerServiceImpl.findOwner(OwnerServiceImpl.java:24) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.1.jar:6.2.1]
+	at com.scaleupindia.service.impl.OwnerServiceImpl$$SpringCGLIB$$0.findOwner(<generated>) ~[classes/:na]
+	at com.scaleupindia.App.run(App.java:38) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772) ~[spring-boot-3.4.1.jar:3.4.1]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:557) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:611) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
+	at com.scaleupindia.App.main(App.java:28) ~[classes/:na]
+
+2025-01-22T14:03:09.190+05:30  INFO 17312 --- [App] [main] com.scaleupindia.App                     : Starting App using Java 22.0.2 with PID 17312 (C:\Users\garla\Desktop\Spring-SpringBoot\demo14\target\classes started by garla in C:\Users\garla\Desktop\Spring-SpringBoot\demo14)
+2025-01-22T14:03:09.193+05:30  INFO 17312 --- [App] [main] com.scaleupindia.App                     : No active profile set, falling back to 1 default profile: "default"
+2025-01-22T14:03:10.179+05:30  INFO 17312 --- [App] [main] com.scaleupindia.App                     : Started App in 1.73 seconds (process running for 2.204)
+2025-01-22T14:03:10.192+05:30  INFO 17312 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Entered String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with arguments as []
+2025-01-22T14:03:10.196+05:30  INFO 17312 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Completed String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with result as Found owner with ownerId 20 
+2025-01-22T14:03:10.197+05:30  INFO 17312 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Completed String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner()
+2025-01-22T14:03:10.197+05:30  INFO 17312 --- [App] [main] com.scaleupindia.App                     : Found owner with ownerId 20 
+2025-01-22T14:03:22.881+05:30  INFO 17312 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Entered String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with arguments as []
+2025-01-22T14:03:22.882+05:30  INFO 17312 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Completed String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with result as Found owner with ownerId 12 
+2025-01-22T14:03:22.882+05:30  INFO 17312 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Completed String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner()
+2025-01-22T14:03:22.882+05:30  INFO 17312 --- [App] [main] com.scaleupindia.App                     : Found owner with ownerId 12 
+2025-01-22T14:25:55.667+05:30  INFO 17288 --- [App] [main] com.scaleupindia.App                     : Starting App using Java 22.0.2 with PID 17288 (C:\Users\garla\Desktop\Spring-SpringBoot\demo14\target\classes started by garla in C:\Users\garla\Desktop\Spring-SpringBoot\demo14)
+2025-01-22T14:25:55.670+05:30  INFO 17288 --- [App] [main] com.scaleupindia.App                     : No active profile set, falling back to 1 default profile: "default"
+2025-01-22T14:25:56.653+05:30  INFO 17288 --- [App] [main] com.scaleupindia.App                     : Started App in 1.75 seconds (process running for 2.307)
+2025-01-22T14:25:56.665+05:30  INFO 17288 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Entered String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with arguments as []
+2025-01-22T14:25:56.667+05:30  INFO 17288 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Completed String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with result as Found owner with ownerId 20 
+2025-01-22T14:25:56.668+05:30  INFO 17288 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Completed String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner()
+2025-01-22T14:25:56.668+05:30  INFO 17288 --- [App] [main] com.scaleupindia.App                     : Found owner with ownerId 20 
+2025-01-22T14:26:00.037+05:30  INFO 17288 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Entered String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with arguments as []
+2025-01-22T14:26:00.038+05:30  INFO 17288 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Completed String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with result as Found owner with ownerId 12 
+2025-01-22T14:26:00.039+05:30  INFO 17288 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Completed String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner()
+2025-01-22T14:26:00.039+05:30  INFO 17288 --- [App] [main] com.scaleupindia.App                     : Found owner with ownerId 12 
+2025-01-22T14:26:09.928+05:30  INFO 25444 --- [App] [main] com.scaleupindia.App                     : Starting App using Java 22.0.2 with PID 25444 (C:\Users\garla\Desktop\Spring-SpringBoot\demo14\target\classes started by garla in C:\Users\garla\Desktop\Spring-SpringBoot\demo14)
+2025-01-22T14:26:09.930+05:30  INFO 25444 --- [App] [main] com.scaleupindia.App                     : No active profile set, falling back to 1 default profile: "default"
+2025-01-22T14:26:10.967+05:30  INFO 25444 --- [App] [main] com.scaleupindia.App                     : Started App in 1.768 seconds (process running for 2.277)
+2025-01-22T14:26:10.983+05:30  INFO 25444 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Entered String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with arguments as []
+2025-01-22T14:26:10.986+05:30  INFO 25444 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Completed String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with result as Found owner with ownerId 20 
+2025-01-22T14:26:10.987+05:30  INFO 25444 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Completed String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner()
+2025-01-22T14:26:10.987+05:30  INFO 25444 --- [App] [main] com.scaleupindia.App                     : Found owner with ownerId 20 
+2025-01-22T14:26:14.070+05:30  INFO 25444 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Entered String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with arguments as []
+2025-01-22T14:26:14.073+05:30 ERROR 25444 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Completed String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with exception as Can't find owner with ownerId 13 
+2025-01-22T14:26:14.074+05:30  INFO 25444 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Completed String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner()
+2025-01-22T14:26:14.074+05:30  INFO 25444 --- [App] [main] com.scaleupindia.App                     : Can't find owner with ownerId 13 
+
+com.scaleupindia.exception.OwnerNotFoundException: Can't find owner with ownerId 13 
+	at com.scaleupindia.repository.impl.OwnerRepositoryImpl.findOwner(OwnerRepositoryImpl.java:25) ~[classes/:na]
+	at com.scaleupindia.service.impl.OwnerServiceImpl.findOwner(OwnerServiceImpl.java:24) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.1.jar:6.2.1]
+	at com.scaleupindia.service.impl.OwnerServiceImpl$$SpringCGLIB$$0.findOwner(<generated>) ~[classes/:na]
+	at com.scaleupindia.App.run(App.java:40) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772) ~[spring-boot-3.4.1.jar:3.4.1]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:557) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:611) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
+	at com.scaleupindia.App.main(App.java:30) ~[classes/:na]
+
+2025-01-22T14:26:46.862+05:30  INFO 27760 --- [App] [main] com.scaleupindia.App                     : Starting App using Java 22.0.2 with PID 27760 (C:\Users\garla\Desktop\Spring-SpringBoot\demo14\target\classes started by garla in C:\Users\garla\Desktop\Spring-SpringBoot\demo14)
+2025-01-22T14:26:46.867+05:30  INFO 27760 --- [App] [main] com.scaleupindia.App                     : No active profile set, falling back to 1 default profile: "default"
+2025-01-22T14:26:47.752+05:30  INFO 27760 --- [App] [main] com.scaleupindia.App                     : Started App in 1.545 seconds (process running for 2.027)
+2025-01-22T14:26:47.765+05:30  INFO 27760 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Around String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with arguments as []
+2025-01-22T14:26:47.767+05:30  INFO 27760 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Before invoking proceed()
+2025-01-22T14:26:47.767+05:30  INFO 27760 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Entered String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with arguments as []
+2025-01-22T14:26:47.769+05:30  INFO 27760 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Completed String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with result as Found owner with ownerId 20 
+2025-01-22T14:26:47.769+05:30  INFO 27760 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Completed String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner()
+2025-01-22T14:26:47.769+05:30  INFO 27760 --- [App] [main] com.scaleupindia.aspect.LogAspect        : After invoking proceed()
+2025-01-22T14:26:47.770+05:30  INFO 27760 --- [App] [main] com.scaleupindia.App                     : Found owner with ownerId 20 
+2025-01-22T14:27:00.290+05:30  INFO 27760 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Around String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with arguments as []
+2025-01-22T14:27:00.290+05:30  INFO 27760 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Before invoking proceed()
+2025-01-22T14:27:00.290+05:30  INFO 27760 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Entered String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with arguments as []
+2025-01-22T14:27:00.293+05:30 ERROR 27760 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Completed String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner() with exception as Can't find owner with ownerId 13 
+2025-01-22T14:27:00.294+05:30  INFO 27760 --- [App] [main] com.scaleupindia.aspect.LogAspect        : Completed String com.scaleupindia.service.impl.OwnerServiceImpl.findOwner()
+2025-01-22T14:27:00.294+05:30  INFO 27760 --- [App] [main] com.scaleupindia.App                     : Can't find owner with ownerId 13 
+
+com.scaleupindia.exception.OwnerNotFoundException: Can't find owner with ownerId 13 
+	at com.scaleupindia.repository.impl.OwnerRepositoryImpl.findOwner(OwnerRepositoryImpl.java:25) ~[classes/:na]
+	at com.scaleupindia.service.impl.OwnerServiceImpl.findOwner(OwnerServiceImpl.java:24) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-6.2.1.jar:6.2.1]
+	at com.scaleupindia.aspect.LogAspect.logAroundAdvice(LogAspect.java:43) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:638) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:628) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.1.jar:6.2.1]
+	at com.scaleupindia.service.impl.OwnerServiceImpl$$SpringCGLIB$$0.findOwner(<generated>) ~[classes/:na]
+	at com.scaleupindia.App.run(App.java:40) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772) ~[spring-boot-3.4.1.jar:3.4.1]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:557) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:611) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
+	at com.scaleupindia.App.main(App.java:30) ~[classes/:na]
+
